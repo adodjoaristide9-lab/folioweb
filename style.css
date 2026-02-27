@@ -1,1 +1,8 @@
-voici le fichier de css
+#navbar { 
+    display: none;
+}
+
+
+#navbar.open {
+    display: block;
+}
