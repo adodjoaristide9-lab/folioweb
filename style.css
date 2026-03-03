@@ -6,10 +6,20 @@
 #navbar.open {
     display: block;
 }
+
 .menu-icon {
     color: red;
-    
 }
-body{
-    
+
+
+
+section#about {
+  background-color: #0b2c5f;
+  color: white;
+
+}
+
+section#competences {
+  background-color: aliceblue;
+  color: rgb(106, 136, 161);
 }
