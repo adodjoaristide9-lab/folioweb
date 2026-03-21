@@ -9,8 +9,30 @@
 
 .menu-icon {
     color: red;
+    padding: 5vh;
 }
 
+header {
+    background-color: white;
+    margin: -10px;
+}
+
+
+p {
+    position: absolute;
+    margin: -1pc;
+    padding-left: 5%;
+  
+  }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
 
 
 section#about {
@@ -22,4 +44,103 @@ section#about {
 section#competences {
   background-color: aliceblue;
   color: rgb(106, 136, 161);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+  display: none; /* caché par défaut */
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-contenu {
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.fermer {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
 }
