@@ -9,9 +9,26 @@
 
 .menu-icon {
     color: red;
+    padding: 5vh;
 }
-
-
+header{
+  background-color: white;
+  margin: 10px;
+}
+p{
+  position: absolute;
+  margin: -1pc;
+  padding-left: 5%;
+}
+.logo{
+  display: center;
+  text-align: 20px;
+  padding-left: 5%;
+  position: relative;
+  top: -80px;
+  margin: 10px;
+}
+.image/p
 
 section#about {
   background-color: #0b2c5f;
